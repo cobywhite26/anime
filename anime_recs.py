@@ -1,6 +1,7 @@
 import random
 anime = open("Animes to Watch.txt")
 anime_list= anime.readlines()
+anime.close()
 anime_list = list(map(lambda s: s.strip(), anime_list))
 anime_list = anime_list[2:]
 anime_boolean = True
